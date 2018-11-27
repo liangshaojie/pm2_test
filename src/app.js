@@ -3,7 +3,7 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 const session = require('express-session')
-
+console.log(6666)
 //2、创建应用
 const app = express()
 
@@ -42,6 +42,5 @@ app.listen(3000,err=>{
     if(err){
         console.log(err)
     }
-
     console.log("start OK")
 })
